@@ -1,5 +1,5 @@
 <h3>My Codewar Challenges</h3>
 
-Everyday I upload the days coding challenges that I'm doing.
+This is where I upload my daily Codewars challenges. 
 
 Here's a link to my Codewar profile: https://www.codewars.com/users/cloudhum
