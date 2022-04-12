@@ -18,4 +18,4 @@ var summation = function (num) {
     }
     
     return sum;
-  }
+}
