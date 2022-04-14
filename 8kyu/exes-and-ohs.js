@@ -13,6 +13,6 @@ function XO(str) {
       }
     }
    
-    return (xs == 0 && os == 0)||(xs == os);
+    return (xs == os);
     
   }
