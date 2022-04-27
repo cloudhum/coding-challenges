@@ -19,10 +19,13 @@ function duplicateCount(text){
     
     for (let i = 0; i < uniqChars.length; i++){
       present = 0;
+
       for (let j = 0; j < text.length; j++){
         if (uniqChars[i] == text[j]) present++;
       }
+
       if (present >= 2) duplicateCount++; 
     }
+    
     return duplicateCount; 
   }
