@@ -7,9 +7,9 @@ function binarySearch(arr, target) {
         if (arr[mid] == target) return mid
 
         if (arr[mid] < target) {
-            left++
+            left = mid + 1
         } else if (arr[mid] > target) {
-            right--
+            right = mid - 1
         }
     }
     return -1;
