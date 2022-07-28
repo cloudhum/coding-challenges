@@ -6,5 +6,5 @@ function wordsToMarks(string) {
         .split('')
         .reduce((sum, el) => {
             return sum + (el.charCodeAt() - 64)
-        }, 0)
+        }, 0);
 }
